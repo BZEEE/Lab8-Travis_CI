@@ -76,7 +76,11 @@ public class CityList {
      *      Candidate city to delete
      */
     public void updateCityProvince(String cityName, String provinceName) {
-
+        for (City c : cities) {
+            if (c.getCityName().equals(cityName)){
+                c.setProvinceName(provinceName);
+            }
+        }
     }
 
     /**
