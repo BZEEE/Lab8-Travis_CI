@@ -70,6 +70,16 @@ public class CityList {
     }
 
     /**
+     * Delete the city from the list if it is there
+     * @param cityName
+     * @param provinceName
+     *      Candidate city to delete
+     */
+    public void updateCityProvince(String cityName, String provinceName) {
+
+    }
+
+    /**
      * Return the size of the city list
      * @return
      *      Size of city list
